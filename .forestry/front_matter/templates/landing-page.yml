@@ -7,23 +7,24 @@ fields:
   label: Title
   type: text
   hidden: false
-  default: ''
+  default: L7 Security
   config:
     required: true
 - type: text
   label: Hero Heading
   name: heading
-  default: Belkirk College
+  default: The internet is a crazy place. Make sure you're protected.
 - type: text
   name: sub_heading
   label: Hero Sub heading
-  default: Engineering and Health Sciences
+  default: L7 Network Security
 - type: file
   name: banner_image
   label: Hero Image
   description: 'Dimensions: 1200px by 580px'
   config:
     maxSize: '2'
+  default: "/uploads/2018/10/07/header-bg2.jpg"
 - type: field_group
   name: hero_button
   label: Hero Button
@@ -31,6 +32,7 @@ fields:
   - type: text
     name: text
     label: Text
+    default: Our Services
   - type: text
     name: href
     label: Link
